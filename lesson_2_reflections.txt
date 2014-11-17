@@ -5,3 +5,15 @@ all the metadata about the git directory since it was created.
 By 'git init', it creates '.git' hidden repository, which is 
 indicative of the fact that the normal directory has now 
 turned into a git repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Working directory contains all the files stored on hard drive
+under the directory
+When you run 'git init', it creates an empty git repository which
+will contain a snapshot of your files in the working directory
+depending on which files you want to commit.
+Staging area is the intermediate between the two, it allows
+you to make a decisoin as to which files from the working directory
+do you want to commit to the git repository.
+By running 'git add file', these files are now tracked for changes,
+i.e. they are added to the staging area.
