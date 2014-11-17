@@ -36,11 +36,6 @@ To keep track of every important stage of code development,
 so as to spot bugs and to make bigger changes with proper 
 commits.
 
-How might using version control make you more confident to make changes that could break something?
-With version control, even if we break something we still can execute 
-older versions of the code so as to locate which commit introduced 
-the bug. Now we can apply git diff on this and the previous commits so 
-as to identify what was deleted or added and hence fix the bug.
 
 
 
