@@ -3,7 +3,7 @@ By pinpointing the modifications that were made in the new file,
 we are able to focus on the differences only and 
 if the original version was working well, then most likely bug
 was introduced while making modifications. Thus we do not need to 
-scan the entire file but only the differences.
+scan the entire file but only the differences!!
 
 How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 By keeping track of the development of a particaular program, 
