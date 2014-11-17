@@ -1,0 +1,76 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+By pinpointing the modifications that were made in the new file, 
+we are able to focus on the differences only and 
+if the original version was working well, then most likely bug
+was introduced while making modifications. Thus we do not need to 
+scan the entire file but only the differences.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+By keeping track of the development of a particaular program, 
+we are able to refer back to the good programming practices that 
+we might have accidentally deleted, also we can make note of the
+useful modifications that we have made. Also as discussed above we can
+trace the failure of new code.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+Automatic version saving might just create a pile of unnecessary versions.
+It may miss some logically related modifications in version.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+VCS like Git is designed from programming point of view, which means 
+various files are interrelated like html and css files in web dev.
+
+How can you use the commands git log and git diff to view the history of files?
+By typing 'git log', we are presented with the commits being made so far.
+Topmost commit is the latest version. By typing 'git diff oldCommitID newCommitID',
+we get the differnces.
+
+How might using version control make you more confident to make changes that could break something?
+With version control, even if we break something we still can execute 
+older versions of the code so as to locate which commit introduced 
+the bug. Now we can apply git diff on this and the previous commits so 
+as to identify what was deleted or added and hence fix the bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+To keep track of every important stage of code development, 
+so as to spot bugs and to make bigger changes with proper 
+commits.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
