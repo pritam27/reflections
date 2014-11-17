@@ -7,8 +7,7 @@ indicative of the fact that the normal directory has now
 turned into a git repository.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-Working directory contains all the files stored on hard drive
-under the directory
+Working directory contains all the files stored on hard drive under the directory
 When you run 'git init', it creates an empty git repository which
 will contain a snapshot of your files in the working directory
 depending on which files you want to commit.
