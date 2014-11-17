@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+Difference between git repository and normal directory
+--> The git repository contains '.git' hidden directory which stores 
+all the metadata about the git directory since it was created.
+By 'git init', it creates '.git' hidden repository, which is 
+indicative of the fact that the normal directory has now 
+turned into a git repository.
