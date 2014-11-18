@@ -16,3 +16,41 @@ you to make a decisoin as to which files from the working directory
 do you want to commit to the git repository.
 By running 'git add file', these files are now tracked for changes,
 i.e. they are added to the staging area.
+
+How can you use the staging area to make sure you have one commit per logical change?
+By running 'git diff', you can identify the changes that you haven't staged yet.
+If you come across a logical change this way you can stage(git add file) right away and
+commit(git commit) it.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches allow us to modify the code while having the old version intact.
+By checking out the branch as we kmow the name we can return back to original version,
+in case the experiment fails (git checkout branch_name)
+
+How do the diagrams help you visualize the branch structure?
+By running,
+git log --graph --oneline branch1 branch2
+we get the diagram of how the commits have evolved.
+The ones with '|' before are the branched out commits, then
+those above them are the master branch commits. 
+The ones below the '|'ed commits are the commits that
+are common to both the master and other branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+First we checkout the branch, lets say branch1 which we want 
+to be updated to be the head of the merge. By running,
+git merge branch2
+We have merged the branch2 into branch1, which means git by 
+referring to the common commit to from which branches evolved
+and the latest commits of the two branches, identifies which 
+changes are to be retained and which are to be deleted, thus 
+creating a new commit which is the merge of the two with the branch1
+updated to refer to this latest commit.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging:
+If the tips(commits) of the two branches are simply involving addition and deletion of line or group of lines,
+auto merging works pretty well.
+However, there are modifications made, then git has no way to decide which version it shoul retain and raises the merge conflict.
+Manual merging:
+This is quite tedious and erronous when dealing with large contents.
