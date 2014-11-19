@@ -12,3 +12,29 @@ You may want to keep your view of the branch and pull the changes only if
 it makes sense to you to do so.
 Also, you don't want others to tamper with your work that you
 as a team-player deserve privacy with your local sub-project.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Branch:
+Branching is done in an existing repository (master branch) in your local machine.
+This is done when you want to experiment with your project, while keeping the main 
+branch(master) intact. On having successfully implemented the experimental version of 
+the project you might want to merge your experiment branch into the master branch(if your
+master branch itself commited changes from the point of diversion) or simply update 
+experiment branch as master branch, otherwise discard the experiment branch if it fails.
+Clone:
+You copy the repository from github onto your local machine by running 
+'git clone url_of_repo'
+This automatically sets a remote named 'origin' refering to the url of 
+github repository.
+You might want to clone the github repository onto your local machine
+when the content is complex enough to be edited on the site itself.
+Fork:
+You can copy a repository from another person's account(if he has  declared 
+it public) onto your account by forking, on the github site itself.
+This is done when you want to make changes to other person's repository (not
+on his account, you cannot change anyone's repository and hence, you need to 
+fork it onto your account) that you are interested in and share it with others,
+while maintaining the original authorization to the person who created the repository.
+You then might want to clone this forked repository onto your local machine
+for making complex editing as discussed before.
+
