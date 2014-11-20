@@ -43,4 +43,9 @@ This way you can identify the commits that haven't been pushed yet
 by running,
 git log remote_name/branch_name
 
-
+How would you collaborate without using Git or GitHub? 
+What would be easier, and what would be harder?
+I might use gmail for collaborating a project with others.
+This would be a manual work and quite erroneous as well.
+Sure enough Git and GitHub are best ways to collaborate a multi-member
+project.
