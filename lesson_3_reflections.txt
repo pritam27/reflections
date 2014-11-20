@@ -38,3 +38,10 @@ while maintaining the original authorization to the person who created the repos
 You then might want to clone this forked repository onto your local machine
 for making complex editing as discussed before.
 
+How would you collaborate without using Git or GitHub? 
+What would be easier, and what would be harder?
+I might use gmail for collaborating a project with others.
+This would be a manual work and quite erroneous as well.
+Sure enough Git and GitHub are best ways to collaborate a multi-member
+project.
+
