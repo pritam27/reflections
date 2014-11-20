@@ -38,3 +38,9 @@ while maintaining the original authorization to the person who created the repos
 You then might want to clone this forked repository onto your local machine
 for making complex editing as discussed before.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+This way you can identify the commits that haven't been pushed yet
+by running,
+git log remote_name/branch_name
+
+
