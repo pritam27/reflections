@@ -49,3 +49,17 @@ I might use gmail for collaborating a project with others.
 This would be a manual work and quite erroneous as well.
 Sure enough Git and GitHub are best ways to collaborate a multi-member
 project.
+
+When would you want to make changes in a separate branch rather than directly in master?
+What benefits does each approach have?
+When you are making small changes, that maintain the logical 
+continuity of the master branch, you are better off updating the 
+master branch itself. If you are confident enough of the changes 
+that you make, then you might want to update the master branch itself.
+However, if the master branch has reached its final production stage,
+then you want to be cautious of making changes that might break your 
+project. In such a case, the experimental version should be branched out 
+and you can push that branch on the remote for other project members to 
+evaluate the version in the form of pull request. With their consent, you can
+then resolve the conflicts, if any, and merge the experimantal version into
+the master branch.
